@@ -1,0 +1,81 @@
+body, html, .app {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f3;
+
+  color: #1f3b2d;
+}
+
+.hero {
+  background: #e0f3eb;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.title {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  margin-bottom: 60px;
+}
+
+.btn {
+  padding: 24px 27px;
+  margin: 10px;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  background: #2e7d32;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #1b5e20;
+}
+
+.btn.secondary {
+  background: #66bb6a;
+}
+
+.btn.secondary:hover {
+  background: #43a047;
+}
+
+.illustration img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.how-it-works {
+  padding: 60px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.how-it-works h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.how-it-works p {
+  max-width: 600px;
+  margin: auto;
+  font-size: 1rem;
+}
